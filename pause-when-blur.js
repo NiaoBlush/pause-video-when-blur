@@ -9,7 +9,7 @@
 // @grant           none
 // @include         https://www.bilibili.com/*
 // @include         https://v.youku.com/*
-// @include         https://www.acfun.cn/v/*
+// @include         https://www.acfun.cn/*
 // ==/UserScript==
 
 const bilibili = {
@@ -33,7 +33,7 @@ const youku = {
 };
 
 const acfun = {
-    regex: /acfun\.cn\/v\//,
+    regex: /acfun\.cn\//,
     play: function () {
         player.play();
     },
